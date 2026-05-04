@@ -1,6 +1,6 @@
 package edu.unl.cc;
 
-public class cerraduraElectronica {
+public class CerraduraElectronica {
 
     private Integer clave;
     private int intentosFallidos;
