@@ -1,452 +1,408 @@
 <div align="center">
 
-<img width="320" height="132" alt="Universidad Nacional de Loja" src="https://github.com/user-attachments/assets/e533f931-15cc-4298-94ed-267c0181a5dd"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1026,50:4C1D95,100:0891B2&height=130&section=header&animation=twinkling" width="100%" alt=""/>
 
-# UNIVERSIDAD NACIONAL DE LOJA
+<img width="220" src="https://github.com/user-attachments/assets/e533f931-15cc-4298-94ed-267c0181a5dd" alt="Universidad Nacional de Loja"/>
 
-### Carrera de Computación · Tercer Ciclo
+<img src="assets/svg/banner.svg" width="100%" alt="Autocompletado Turístico de las Artes Vivas de Loja"/>
 
-<br/>
+<a href="#-03--núcleo-del-sistema">
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=860&height=60&lines=Escribe+%22Pu%22+%E2%86%92+Puerta+de+la+Ciudad;Trie+%2B+Map+%2B+Lista+doble;Cach%C3%A9+FIFO+%C2%B7+LRU+%C2%B7+SIEVE;Explora+Loja+con+algoritmos" alt="Animación de texto"/>
+</a>
 
-<img src="https://img.shields.io/badge/◈_LOJA_CULTURA_PULSE-111827?style=for-the-badge&labelColor=7C3AED&color=06B6D4" alt="Loja Cultura Pulse"/>
+**Carrera de Computación · Tercer Ciclo · Estructura de Datos · Grupo 4**
 
-### **Sistema de Autocompletado Cultural del FIAVL**
+[![Trie](https://img.shields.io/badge/ÁRBOL_TRIE-00D9FF?style=for-the-badge&logo=treehouse&logoColor=black)](#-03--núcleo-del-sistema)
+[![SIEVE](https://img.shields.io/badge/CACHÉ_SIEVE-9333EA?style=for-the-badge&logo=redis&logoColor=white)](#-04--gestión-inteligente-de-caché)
+[![JavaScript](https://img.shields.io/badge/JAVASCRIPT-FACC15?style=for-the-badge&logo=javascript&logoColor=black)](#-05--flujo-de-búsqueda)
+[![Node](https://img.shields.io/badge/NODE.JS-22C55E?style=for-the-badge&logo=nodedotjs&logoColor=black)](#-05--flujo-de-búsqueda)
+![Estado](https://img.shields.io/badge/ESTADO-EN_MEJORA-F59E0B?style=for-the-badge)
 
-<img src="https://img.shields.io/badge/BÚSQUEDA_POR_PREFIJOS-00D9FF?style=for-the-badge&logoColor=black"/>
-<img src="https://img.shields.io/badge/MEMORIA_INTELIGENTE-9B5DE5?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ESTRUCTURAS_NO_LINEALES-FF3CAC?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ALGORITMOS-39FF14?style=for-the-badge&logoColor=black"/>
-
-<br/>
-
-<em>La velocidad de búsqueda se encuentra con la inteligencia de las estructuras de datos.</em>
-
-<br/><br/>
-
-<img src="ESPACIO_PARA_BANNER_FUTURISTA_FIAVL" width="95%" alt="Banner futurista del proyecto"/>
-
-<br/>
-
-<kbd> NODE.JS </kbd> · <kbd> EXPRESS </kbd> · <kbd> JAVASCRIPT </kbd> · <kbd> TRIE </kbd> · <kbd> SIEVE </kbd>
-
-<br/><br/>
-
-<font color="#38BDF8">●</font> **GRUPO 4** &nbsp; <font color="#A855F7">●</font> **ESTRUCTURA DE DATOS** &nbsp; <font color="#F472B6">●</font> **2026–2027**
+<sub>Septiembre 2026 — Febrero 2027 · Loja, Ecuador</sub>
 
 </div>
 
----
+<img src="assets/svg/divider.svg" width="100%" alt=""/>
 
-# 🟣 01 · EL PROYECTO
+## 📑 Contenido
 
-<details open>
-<summary><b>▸ Identidad y propósito</b></summary>
+| | | |
+|:--|:--|:--|
+| [01 · Presentación](#-01--presentación-del-proyecto) | [02 · Interfaz](#-02--interfaz-de-exploración) | [03 · Núcleo 3D](#-03--núcleo-del-sistema) |
+| [04 · Caché](#-04--gestión-inteligente-de-caché) | [05 · Flujo](#-05--flujo-de-búsqueda) | [06 · Rendimiento](#-06--experimentación-y-rendimiento) |
+| [07 · Loja en imágenes](#-07--loja-en-imágenes) | [08 · Estado y ejecución](#-08--galería-y-estado-de-desarrollo) | [09 · Equipo](#-09--equipo-de-desarrollo) |
 
-<br/>
-
-**Loja Cultura Pulse** es un sistema de autocompletado enfocado en la búsqueda de información turística y cultural relacionada con el Festival Internacional de Artes Vivas de Loja (FIAVL).
-
-El proyecto combina estructuras de datos no lineales y algoritmos de gestión de memoria para ofrecer sugerencias de búsqueda en tiempo real, reducir operaciones repetitivas y optimizar la recuperación de información.
-
-Su funcionamiento se fundamenta en un árbol de prefijos **Trie**, un índice dinámico basado en **Map** y un sistema de caché que permite comparar diferentes estrategias de reemplazo de elementos.
-
-</details>
+<img src="assets/svg/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 
-| <img src="https://img.shields.io/badge/01-TRIE-00D9FF?style=for-the-badge"/> | <img src="https://img.shields.io/badge/02-CACHE-BC13FE?style=for-the-badge"/> | <img src="https://img.shields.io/badge/03-RENDIMIENTO-FF3CAC?style=for-the-badge"/> |
-|:---:|:---:|:---:|
-| Búsqueda por prefijos | Gestión de memoria | Medición en milisegundos |
+## 🩵 01 · PRESENTACIÓN DEL PROYECTO
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=17&duration=2500&pause=600&color=A78BFA&center=true&vCenter=true&width=700&height=40&lines=Recuperaci%C3%B3n+de+informaci%C3%B3n;Algoritmos+y+estructuras+de+datos;Optimizaci%C3%B3n+con+cach%C3%A9" alt=""/>
 
 </div>
+
+El **Autocompletado Turístico de las Artes Vivas de la Ciudad de Loja** es una aplicación que facilita la exploración de lugares, obras y eventos culturales mediante un buscador dinámico capaz de generar sugerencias mientras el usuario escribe.
+
+El sistema aplica estructuras de datos y algoritmos para mejorar la recuperación de información, disminuir búsquedas repetitivas y estudiar el comportamiento de las consultas mediante un sistema de almacenamiento temporal en caché.
+
+### ✦ Objetivos del sistema
+
+- 🎭 Facilitar el descubrimiento de lugares y eventos turísticos y culturales.
+- 🌳 Implementar búsqueda por prefijos mediante un árbol Trie.
+- ⚡ Optimizar la recuperación de consultas repetidas mediante caché.
+- 🔗 Aplicar listas doblemente enlazadas en la administración de memoria.
+- ⚖️ Comparar diferentes políticas de reemplazo.
+- 📈 Analizar el comportamiento y rendimiento de las estructuras implementadas.
 
 <div align="center">
 
-<img src="ESPACIO_PARA_CAPTURA_GENERAL_DEL_PROYECTO" width="95%" alt="Vista principal del proyecto"/>
+<img src="ESPACIO_PARA_CAPTURA_PRINCIPAL" width="95%" alt="Pantalla principal del sistema"/>
 
-<sub>Figura 1. Interfaz principal del sistema de autocompletado cultural.</sub>
+<sub>Figura 1. Interfaz principal del autocompletado turístico.</sub>
 
 </div>
 
----
-
-# 🔵 02 · INTERFAZ Y EXPERIENCIA DE BÚSQUEDA
-
-La interfaz permite al usuario ingresar el nombre de un lugar, evento o referencia cultural para obtener sugerencias de forma dinámica, sin necesidad de escribir el término completo.
-
-### ✦ Características de interacción
-
-- 🔹 Búsqueda mientras se escribe.
-- 🔹 Autocompletado de nombres.
-- 🔹 Recuperación de coincidencias mediante prefijos.
-- 🔹 Procesamiento de consultas en el servidor.
-- 🔹 Respuestas asincrónicas desde la interfaz.
-- 🔹 Visualización del estado de funcionamiento.
+<img src="assets/svg/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 
-<img src="ESPACIO_PARA_CAPTURA_DEL_BUSCADOR" width="95%" alt="Buscador del FIAVL"/>
+## 💜 02 · INTERFAZ DE EXPLORACIÓN
 
-<sub>Figura 2. Consulta dinámica de lugares y referencias culturales.</sub>
-
-</div>
-
-### ◈ Ejemplo de búsqueda
-
-```text
-┌─────────────────────────────────────────────────────────┐
-│  🔎  Escribe un lugar, obra o evento...              │
-└─────────────────────────────────────────────────────────┘
-
-Entrada:  tea
-
-             ↓
-
-Resultados sugeridos:
-
-   ▸ Teatro Bolívar
-   ▸ Teatro Municipal
-   ▸ Teatro Benjamín Carrión
-```
-
-<sub>Ejemplo ilustrativo de sugerencias; los resultados dependen del catálogo cargado.</sub>
-
----
-
-# 🟢 03 · ARQUITECTURA Y ESTRUCTURAS
-
-El núcleo del sistema se construye a partir de tres componentes principales, cada uno con una responsabilidad específica dentro de la recuperación y administración de consultas.
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/ÁRBOL_DE_PREFIJOS-00E5FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/TABLA_HASH-9D4EDD?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LISTA_DOBLE-FF4ECD?style=for-the-badge"/>
+![Consulta dinámica](https://img.shields.io/badge/CONSULTA_DINÁMICA-8B5CF6?style=for-the-badge)
+![Resultados instantáneos](https://img.shields.io/badge/RESULTADOS_INSTANTÁNEOS-EC4899?style=for-the-badge)
 
 </div>
 
-| Estructura | Función dentro del sistema | Complejidad |
-|---|---|---|
-| 🌳 **Trie** | Organiza el catálogo por caracteres compartidos y recupera coincidencias de prefijos. | O(L) para recorrer el prefijo |
-| ⚡ **Map (Tabla Hash)** | Localiza las claves de consulta y referencias a nodos de caché. | O(1) promedio |
-| 🔗 **Lista doblemente enlazada** | Administra los nodos de memoria mediante referencias `prev` y `next`. | O(1) para operaciones locales con referencias |
+La interfaz permite ingresar nombres o fragmentos de palabras para localizar información cultural y turística de Loja. A medida que se introduce texto, el sistema procesa la consulta y presenta coincidencias disponibles.
 
-### ◈ Relación entre componentes
-
-```mermaid
-flowchart TD
-    A["🔍 Consulta"] --> B["🌳 Trie"]
-    A --> C["⚡ Map"]
-    C --> D["🔗 Lista doble"]
-    B --> E["📌 Coincidencias"]
-    D --> F["🧠 Caché"]
-    F --> E
-
-    style A fill:#0F172A,stroke:#38BDF8,color:#FFFFFF
-    style B fill:#172554,stroke:#00E5FF,color:#FFFFFF
-    style C fill:#4C1D95,stroke:#C084FC,color:#FFFFFF
-    style D fill:#831843,stroke:#FF4ECD,color:#FFFFFF
-    style F fill:#164E63,stroke:#22D3EE,color:#FFFFFF
-    style E fill:#065F46,stroke:#34D399,color:#FFFFFF
-```
-
-<div align="center">
-
-<img src="ESPACIO_PARA_DIAGRAMA_REAL_DE_ESTRUCTURAS" width="90%" alt="Diagrama de estructuras"/>
-
-<sub>Figura 3. Interacción entre el Trie, la tabla Hash y la lista doblemente enlazada.</sub>
-
-</div>
-
----
-
-# 🟠 04 · ÁRBOL DE PREFIJOS (TRIE)
-
-<details open>
-<summary><b>▸ Organización y recuperación de coincidencias</b></summary>
-
-<br/>
-
-El Trie es una estructura de datos no lineal que organiza cadenas mediante caracteres compartidos. Cada nodo representa una parte de la palabra y permite avanzar por una secuencia de caracteres hasta localizar el prefijo consultado.
-
-Esta estructura evita tener que comparar individualmente cada nombre del catálogo para determinar si coincide con la entrada del usuario.
-
-</details>
-
-### ◈ Ejemplo de estructura
-
-```mermaid
-flowchart TD
-    R[" raíz "] --> T["t"]
-    R --> P["p"]
-    T --> E["e"]
-    E --> A["a"]
-    A --> T2["t"]
-    T2 --> R2["r"]
-    R2 --> O["o"]
-    P --> A2["a"]
-    A2 --> R3["r"]
-    R3 --> Q["q"]
-
-    style R fill:#581C87,stroke:#D946EF,color:white
-    style T fill:#075985,stroke:#00E5FF,color:white
-    style E fill:#075985,stroke:#00E5FF,color:white
-    style A fill:#075985,stroke:#00E5FF,color:white
-    style T2 fill:#075985,stroke:#00E5FF,color:white
-    style R2 fill:#075985,stroke:#00E5FF,color:white
-    style O fill:#047857,stroke:#34D399,color:white
-    style P fill:#9D174D,stroke:#FF4ECD,color:white
-    style A2 fill:#9D174D,stroke:#FF4ECD,color:white
-    style R3 fill:#9D174D,stroke:#FF4ECD,color:white
-    style Q fill:#047857,stroke:#34D399,color:white
-```
-
-### ◈ Análisis de búsqueda
-
-| Operación | Descripción |
+| Funcionalidad | Descripción |
 |---|---|
-| Inserción | Incorpora caracteres y crea nodos cuando no existen. |
-| Recorrido | Avanza por los caracteres de la consulta. |
-| Prefijo | Localiza el nodo correspondiente a la cadena ingresada. |
-| Recuperación | Obtiene las coincidencias descendientes del nodo localizado. |
-
-<blockquote>
-
-<font color="#00D9FF">**Complejidad de recorrido: O(L)**</font>
-
-Donde `L` representa la longitud del prefijo ingresado, sin considerar el costo de enumerar todos los resultados encontrados.
-
-</blockquote>
+| 🔎 **Autocompletado** | Generación dinámica de sugerencias. |
+| 🔤 **Búsqueda por prefijo** | Localización a partir de caracteres iniciales. |
+| ⚡ **Respuesta dinámica** | Actualización de resultados durante la escritura. |
+| 🗂️ **Consulta de catálogo** | Exploración de lugares, obras y eventos. |
+| 🩺 **Estado del sistema** | Información sobre el estado de procesamiento. |
 
 <div align="center">
 
-<img src="ESPACIO_PARA_VISUALIZACION_DEL_TRIE" width="95%" alt="Visualización del Trie"/>
+<img src="ESPACIO_PARA_CAPTURA_AUTOCOMPLETADO" width="95%" alt="Autocompletado en tiempo real"/>
 
-<sub>Figura 4. Representación gráfica de la búsqueda a través de caracteres compartidos.</sub>
+<sub>Figura 2. Generación de sugerencias a partir de una consulta parcial.</sub>
 
 </div>
 
----
-
-# 🩷 05 · SISTEMA DE CACHÉ Y POLÍTICAS DE REEMPLAZO
-
-El sistema utiliza memoria caché para conservar consultas y reducir la necesidad de repetir búsquedas. Su capacidad es limitada, por lo que requiere políticas que determinen qué elementos deben mantenerse y cuáles deben eliminarse.
+<img src="assets/svg/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/FIFO-FF9F1C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LRU-BC13FE?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/SIEVE-00D9FF?style=for-the-badge"/>
+## 💠 03 · NÚCLEO DEL SISTEMA
+
+![Trie](https://img.shields.io/badge/TRIE-00D9FF?style=for-the-badge&logoColor=black)
+![Map](https://img.shields.io/badge/MAP-22C55E?style=for-the-badge)
+![Lista doble](https://img.shields.io/badge/LISTA_DOBLE-F472B6?style=for-the-badge)
+
+### 🧊 Trie en 3D
+
+<img src="assets/svg/trie-iso.svg" width="92%" alt="Trie isométrico animado"/>
+
+<sub>Figura 3. Trie en vista isométrica animada: cada nivel agrega un carácter del prefijo.</sub>
+
+<br/>
+
+**Modelo 3D interactivo** → [`assets/modelo3d/trie.stl`](assets/modelo3d/trie.stl)
+<br/>
+<sub>GitHub abre archivos <code>.stl</code> con un visor 3D: arrastra para rotar, rueda para acercar.</sub>
 
 </div>
 
-### ◈ Comparación de políticas
+El funcionamiento del proyecto se apoya en estructuras de datos que trabajan conjuntamente para organizar las consultas y gestionar los resultados recuperados.
 
-| Política | Estrategia | Comportamiento |
-|---|---|---|
-| 🟠 **FIFO** | Primero en entrar, primero en salir | Expulsa el elemento más antiguo sin considerar las consultas repetidas. |
-| 🟣 **LRU** | Menos recientemente utilizado | Reorganiza nodos ante los aciertos y elimina el elemento menos reciente. |
-| 🔵 **SIEVE** | Marcado y barrido | Utiliza un estado de visita y un puntero de recorrido para gestionar la expulsión. |
+| 🌳 Árbol Trie | ⚡ Tabla Hash (Map) | 🔗 Lista doblemente enlazada |
+|:--|:--|:--|
+| Organiza las palabras mediante caracteres compartidos y recorre únicamente la secuencia del prefijo consultado. | Localiza elementos por clave, dando acceso rápido a la información y referencias del sistema. | Nodos con referencia al anterior y al siguiente: permite mover y eliminar sin recorrer toda la estructura. |
 
-### ◈ ¿Por qué SIEVE?
+### Relación entre las estructuras
 
-SIEVE utiliza un mecanismo de promoción perezosa: cuando un elemento es consultado, se marca como visitado sin reorganizar físicamente su nodo.
+```mermaid
+flowchart LR
+    A["🔎 Consulta"] --> B["🌳 Trie"]
+    B --> C["📋 Coincidencias"]
+    C --> D["⚡ Map"]
+    D --> E["🔗 Lista doble"]
+    E --> F["🧠 Caché"]
+    F --> G["📤 Resultados"]
 
-Esto reduce las operaciones de reordenamiento que se producen en políticas como LRU.
+    style A fill:#0E7490,stroke:#22D3EE,color:#FFFFFF
+    style B fill:#1D4ED8,stroke:#38BDF8,color:#FFFFFF
+    style C fill:#4338CA,stroke:#818CF8,color:#FFFFFF
+    style D fill:#047857,stroke:#34D399,color:#FFFFFF
+    style E fill:#9D174D,stroke:#F472B6,color:#FFFFFF
+    style F fill:#7E22CE,stroke:#D946EF,color:#FFFFFF
+    style G fill:#BE185D,stroke:#FB7185,color:#FFFFFF
+```
+
+<img src="assets/svg/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 
-<img src="ESPACIO_PARA_DIAGRAMA_ANIMADO_O_CAPTURA_SIEVE" width="95%" alt="Funcionamiento de SIEVE"/>
+## 🟢 04 · GESTIÓN INTELIGENTE DE CACHÉ
 
-<sub>Figura 5. Administración de elementos y mecanismo de barrido de SIEVE.</sub>
+![SIEVE](https://img.shields.io/badge/SIEVE-00D9FF?style=for-the-badge&logoColor=black)
+![FIFO](https://img.shields.io/badge/FIFO-FF9F1C?style=for-the-badge)
+![LRU](https://img.shields.io/badge/LRU-C084FC?style=for-the-badge)
 
 </div>
 
-### 🔹 Funcionamiento de SIEVE
+La caché conserva resultados de búsquedas anteriores para reutilizarlos en consultas repetidas. Debido a su capacidad limitada, el sistema decide qué elementos permanecen y cuáles se reemplazan.
+
+| Política | Nombre | Criterio de expulsión |
+|:--:|---|---|
+| 🟧 **FIFO** | Primero en entrar, primero en salir | Sale el más antiguo, sin importar su uso posterior. |
+| 🟪 **LRU** | Menos recientemente utilizado | Se conservan los elementos consultados hace poco. |
+| 🟦 **SIEVE** | Marcado y barrido | Marcas de visita y un puntero (*hand*) que recorre la lista para elegir qué expulsar. |
+
+### Funcionamiento conceptual de SIEVE
 
 ```mermaid
 flowchart TD
-    A["📥 Insertar elemento"] --> B["visited = false"]
-    B --> C["Elemento almacenado"]
-    C --> D{"¿Consulta existente?"}
-    D -->|"Sí"| E["visited = true"]
-    E --> F["Conservar posición"]
-    D -->|"No / capacidad llena"| G["Puntero hand"]
-    G --> H{"Estado del nodo"}
-    H -->|"visited = true"| I["Cambiar a false y avanzar"]
-    I --> G
-    H -->|"visited = false"| J["Expulsar nodo"]
-    J --> K["Insertar nuevo elemento"]
+    A["📥 Nueva consulta"] --> B{"¿Existe en caché?"}
+    B -->|Sí| C["🟢 Acierto"]
+    C --> D["Marcar elemento visitado"]
+    B -->|No| E["🔵 Buscar en Trie"]
+    E --> F["Guardar resultado"]
+    F --> G{"¿Capacidad completa?"}
+    G -->|No| H["Insertar nodo"]
+    G -->|Sí| I["🔄 Recorrer con Hand"]
+    I --> J{"¿Nodo visitado?"}
+    J -->|Sí| K["Desmarcar y avanzar"]
+    K --> I
+    J -->|No| L["🗑️ Expulsar nodo"]
+    L --> H
 
     style A fill:#0E7490,stroke:#22D3EE,color:white
-    style E fill:#6D28D9,stroke:#C084FC,color:white
-    style G fill:#9D174D,stroke:#FF4ECD,color:white
-    style J fill:#B91C1C,stroke:#F87171,color:white
-    style K fill:#047857,stroke:#34D399,color:white
+    style C fill:#047857,stroke:#34D399,color:white
+    style E fill:#1D4ED8,stroke:#38BDF8,color:white
+    style I fill:#7E22CE,stroke:#D946EF,color:white
+    style L fill:#BE185D,stroke:#FB7185,color:white
+    style H fill:#047857,stroke:#34D399,color:white
 ```
 
----
+<div align="center">
 
-# 🟡 06 · FLUJO DE EJECUCIÓN Y RENDIMIENTO
+<img src="ESPACIO_PARA_CAPTURA_CACHE_SIEVE" width="95%" alt="Visualización de caché SIEVE"/>
 
-El controlador central coordina la interfaz, las peticiones del servidor y las estructuras de datos, permitiendo que cada consulta se procese a través de una ruta de recuperación optimizada.
+<sub>Figura 4. Administración de elementos y mecanismo de reemplazo de caché.</sub>
 
-### ◈ Secuencia de procesamiento
+</div>
+
+<img src="assets/svg/divider.svg" width="100%" alt=""/>
+
+<div align="center">
+
+## 🟠 05 · FLUJO DE BÚSQUEDA
+
+![Procesamiento](https://img.shields.io/badge/PROCESAMIENTO-FF9F1C?style=for-the-badge)
+![Consultas](https://img.shields.io/badge/CONSULTAS-38BDF8?style=for-the-badge)
+![Respuesta](https://img.shields.io/badge/RESPUESTA-34D399?style=for-the-badge)
+
+</div>
+
+La consulta se procesa, se verifica su disponibilidad en caché y, si no existe, se ejecuta la búsqueda sobre el Trie.
 
 ```mermaid
 sequenceDiagram
-    participant U as Usuario
-    participant I as Interfaz
-    participant S as Servidor Node.js
-    participant C as Caché Map
-    participant T as Trie
+    participant U as 👤 Usuario
+    participant W as 💻 Interfaz
+    participant S as ⚙️ Servidor
+    participant C as 🧠 Caché
+    participant T as 🌳 Trie
 
-    U->>I: Escribe un prefijo
-    I->>S: Petición asincrónica
-    S->>C: Consultar clave
-    alt Acierto de caché
-        C-->>S: Resultado almacenado
-    else Fallo de caché
-        S->>T: Buscar prefijo
-        T-->>S: Coincidencias
-        S->>C: Guardar resultados
+    U->>W: Escribe consulta
+    W->>S: Envía prefijo
+    S->>C: Verifica caché
+    alt Resultado almacenado
+        C-->>S: Recupera coincidencias
+    else Consulta nueva
+        S->>T: Ejecuta búsqueda
+        T-->>S: Devuelve resultados
+        S->>C: Almacena consulta
     end
-    S-->>I: Resultados + métricas
-    I-->>U: Mostrar sugerencias
+    S-->>W: Envía coincidencias
+    W-->>U: Muestra sugerencias
 ```
 
-### ◈ Evaluación de rendimiento
+### Análisis de operaciones
 
-El sistema permite observar las operaciones de consulta y analizar las diferencias entre las políticas de memoria.
+| Operación | Estructura | Complejidad esperada |
+|---|---|:--:|
+| Recorrido de prefijo | Trie | `O(L)` |
+| Acceso a clave | Map | `O(1)` prom. |
+| Inserción local | Lista doble | `O(1)` con referencia |
+| Eliminación local | Lista doble | `O(1)` con referencia |
+| Recuperación de coincidencias | Trie | Depende del nº de resultados |
+| Búsqueda en caché | Map | `O(1)` prom. |
 
-| Indicador | Utilidad |
+<sub>L = longitud del prefijo ingresado. La recuperación completa también depende del número de coincidencias.</sub>
+
+<details>
+<summary><b>🧮 Ejemplo: ¿qué pasa al escribir "pu"?</b></summary>
+
+1. La interfaz envía el prefijo `pu`.
+2. El servidor consulta el `Map` de la caché: si hay *acierto*, responde sin tocar el Trie.
+3. Si hay *fallo*, el Trie recorre `p → u` (2 pasos) y reúne las palabras bajo ese nodo.
+4. El resultado se guarda en caché; si está llena, la política activa (FIFO, LRU o SIEVE) expulsa un elemento.
+
+</details>
+
+<div align="center">
+
+<img src="ESPACIO_PARA_DIAGRAMA_DEL_FLUJO_DE_BUSQUEDA" width="95%" alt="Flujo interno de búsqueda"/>
+
+<sub>Figura 5. Flujo de procesamiento desde la consulta hasta la visualización.</sub>
+
+</div>
+
+<img src="assets/svg/divider.svg" width="100%" alt=""/>
+
+<div align="center">
+
+## 🔴 06 · EXPERIMENTACIÓN Y RENDIMIENTO
+
+![Laboratorio](https://img.shields.io/badge/LABORATORIO_DE_PRUEBAS-F43F5E?style=for-the-badge)
+![Medición](https://img.shields.io/badge/MEDICIÓN-7C3AED?style=for-the-badge)
+![Análisis](https://img.shields.io/badge/ANÁLISIS-06B6D4?style=for-the-badge)
+
+</div>
+
+La experimentación estudia el comportamiento de las estructuras bajo distintas secuencias de consultas, tamaños de datos y escenarios de reutilización.
+
+| Indicador | Descripción |
 |---|---|
-| ⏱️ Tiempo de respuesta | Medir la duración de la operación. |
-| 🟢 Aciertos | Cuantificar consultas recuperadas desde caché. |
-| 🔴 Fallos | Identificar consultas que requieren procesamiento. |
-| 📦 Tamaño de caché | Observar la ocupación de memoria lógica. |
-| ♻️ Expulsiones | Analizar la renovación de elementos almacenados. |
-| 📈 Rendimiento | Comparar políticas bajo una misma secuencia de consultas. |
+| ⏱️ Tiempo de ejecución | Tiempo requerido para procesar la consulta. |
+| 🟢 Aciertos de caché | Resultados recuperados sin repetir la búsqueda. |
+| 🔴 Fallos de caché | Consultas que requieren procesamiento. |
+| 📦 Capacidad | Límite de almacenamiento configurado. |
+| ♻️ Expulsiones | Elementos eliminados de la caché. |
+| 📈 Rendimiento | Comparación entre políticas. |
 
 <div align="center">
 
-<img src="ESPACIO_PARA_GRAFICAS_BENCHMARK_FIFO_LRU_SIEVE" width="95%" alt="Comparación de políticas de caché"/>
+<img src="ESPACIO_PARA_GRAFICA_COMPARATIVA_FIFO_LRU_SIEVE" width="95%" alt="Gráfica de rendimiento de políticas"/>
 
-<sub>Figura 6. Comparativa de rendimiento de FIFO, LRU y SIEVE.</sub>
+<sub>Figura 6. Comparación de políticas de caché bajo un mismo conjunto de consultas.</sub>
+
+<br/>
+
+<img src="ESPACIO_PARA_GRAFICA_TIEMPOS_DE_BUSQUEDA" width="95%" alt="Gráfica de tiempos de búsqueda"/>
+
+<sub>Figura 7. Comportamiento de los tiempos de ejecución del sistema.</sub>
 
 </div>
 
----
-
-# 🧬 07 · EVIDENCIAS Y EVOLUCIÓN
-
-### ◈ Galería de desarrollo
+<img src="assets/svg/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 
-| 🔷 Interfaz | 🟣 Procesamiento |
-|:---:|:---:|
-| <img src="ESPACIO_CAPTURA_INTERFAZ" width="100%" alt="Interfaz"/> | <img src="ESPACIO_CAPTURA_PROCESAMIENTO" width="100%" alt="Procesamiento"/> |
-| <sub>Figura 7. Buscador</sub> | <sub>Figura 8. Servidor</sub> |
+## 🏔️ 07 · LOJA EN IMÁGENES
 
-| 🟢 Estructuras | 🩷 Experimentación |
-|:---:|:---:|
-| <img src="ESPACIO_CAPTURA_TRIE_CACHE" width="100%" alt="Estructuras"/> | <img src="ESPACIO_CAPTURA_BENCHMARK" width="100%" alt="Benchmark"/> |
-| <sub>Figura 9. Estructuras</sub> | <sub>Figura 10. Evaluación</sub> |
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=17&duration=2800&pause=700&color=F472B6&center=true&vCenter=true&width=700&height=40&lines=Capital+Musical+y+Cultural+del+Ecuador;Arte%2C+m%C3%BAsica+y+tradici%C3%B3n+lojana" alt=""/>
+
+| <img src="assets/loja/puerta-de-la-ciudad.jpg" width="100%" alt="Puerta de la Ciudad"/> | <img src="assets/loja/catedral.jpg" width="100%" alt="Catedral de Loja"/> | <img src="assets/loja/parque-central.jpg" width="100%" alt="Parque Central"/> |
+|:--:|:--:|:--:|
+| **Puerta de la Ciudad** | **Catedral** | **Parque Central** |
+| <img src="assets/loja/calle-lourdes.jpg" width="100%" alt="Calle Lourdes"/> | <img src="assets/loja/plaza-independencia.jpg" width="100%" alt="Plaza de la Independencia"/> | <img src="assets/loja/vista-panoramica.jpg" width="100%" alt="Vista panorámica de Loja"/> |
+| **Calle Lourdes** | **Plaza de la Independencia** | **Vista panorámica** |
+
+<sub>Figuras 8–13. Lugares emblemáticos de Loja. Fotografías: añadir autor y fuente de cada imagen.</sub>
 
 </div>
 
-### ◈ Estado de desarrollo
+<img src="assets/svg/divider.svg" width="100%" alt=""/>
+
+<div align="center">
+
+## 🩷 08 · GALERÍA Y ESTADO DE DESARROLLO
+
+![Evolución](https://img.shields.io/badge/EVOLUCIÓN_DEL_PROYECTO-EC4899?style=for-the-badge)
+![Implementación](https://img.shields.io/badge/IMPLEMENTACIÓN-8B5CF6?style=for-the-badge)
+
+### Galería de evidencias
+
+| 🔷 Buscador | 🟣 Resultados |
+|:---:|:---:|
+| <img src="ESPACIO_CAPTURA_1" width="100%" alt="Buscador"/> | <img src="ESPACIO_CAPTURA_2" width="100%" alt="Resultados"/> |
+| <sub>Figura 14. Búsqueda</sub> | <sub>Figura 15. Resultados</sub> |
+
+| 🟢 Caché | 🟠 Ejecución |
+|:---:|:---:|
+| <img src="ESPACIO_CAPTURA_3" width="100%" alt="Caché"/> | <img src="ESPACIO_CAPTURA_4" width="100%" alt="Ejecución"/> |
+| <sub>Figura 16. Memoria</sub> | <sub>Figura 17. Sistema</sub> |
+
+</div>
+
+### Estado de los componentes
 
 | Componente | Estado |
 |---|:---:|
-| Autocompletado con Trie | 🟢 |
-| Servidor Node.js y Express | 🟢 |
-| Índice mediante Map | 🟢 |
+| Árbol Trie | 🟢 |
+| Autocompletado turístico | 🟢 |
+| Servidor local | 🟢 |
+| Gestión mediante Map | 🟢 |
 | Lista doblemente enlazada | 🟢 |
 | Política FIFO | 🟢 |
 | Política LRU | 🟢 |
 | Política SIEVE | 🟢 |
-| Búsquedas por prefijos | 🟢 |
-| Métricas de consultas | 🟢 |
-| Mejoras visuales de interfaz | 🟡 |
-| Experimentos y comparativas ampliadas | 🟡 |
+| Métricas de consulta | 🟢 |
+| Mejoras y pruebas experimentales | 🟡 |
 
-<sub>🟢 Implementado · 🟡 En mejora o validación · ⚪ Pendiente</sub>
+<sub>🟢 Implementado · 🟡 En revisión o mejora · ⚪ Pendiente</sub>
 
-### ◈ Instalación y ejecución
+### Ejecución local
 
 ```bash
-# Clonar el repositorio
 git clone URL_DEL_REPOSITORIO
-
-# Acceder a la carpeta
-cd NOMBRE_DEL_PROYECTO
-
-# Instalar dependencias
+cd CARPETA_DEL_PROYECTO
 npm install
-
-# Ejecutar
 npm start
 ```
 
-<details>
-<summary><b>📌 Requisitos del entorno</b></summary>
+<sub>Los comandos definitivos se ajustarán a los scripts de ejecución configurados en el proyecto.</sub>
 
-- Node.js
-- npm
-- Navegador web actualizado
-- Git
-
-</details>
-
----
-
-# 🔴 08 · EQUIPO Y CRÉDITOS
+<img src="assets/svg/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/UNIVERSIDAD_NACIONAL_DE_LOJA-0D1B2A?style=for-the-badge&logoColor=00D9FF"/>
-<img src="https://img.shields.io/badge/CARRERA_DE_COMPUTACIÓN-6D28D9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/GRUPO_4-DB2777?style=for-the-badge"/>
+## 💛 09 · EQUIPO DE DESARROLLO
 
-<br/>
+![UNL](https://img.shields.io/badge/UNIVERSIDAD_NACIONAL_DE_LOJA-2563EB?style=for-the-badge)
+![Grupo 4](https://img.shields.io/badge/GRUPO_4-9333EA?style=for-the-badge)
+![Tercer ciclo](https://img.shields.io/badge/TERCER_CICLO-EC4899?style=for-the-badge)
 
 ### 👨‍🏫 Docente
 
 **Ing. Cristian Narvaez**
 
-<br/>
-
 ### 👨‍💻 Integrantes
 
-**Yimmy Onner Angulo Torres**  
-**Richard Santiago Guaman Sanchez**  
-**Freddy Alexander Ordoñez Gonzalez**  
-**Joaquin Emilio Moscol Castillo**  
-**Erick Jahirs Rogel Baque**
+| Estudiante |
+|:--:|
+| Yimmy Onner Angulo Torres |
+| Richard Santiago Guaman Sanchez |
+| Freddy Alexander Ordoñez Gonzalez |
+| Joaquin Emilio Moscol Castillo |
+| Erick Jahirs Rogel Baque |
+
+### 📅 Período Académico
+
+**Septiembre 2026 – Febrero 2027**
 
 <br/>
 
-### 📚 Carrera de Computación · Tercer Ciclo
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=700&height=45&lines=ARTES+%C2%B7+CULTURA+%C2%B7+TECNOLOG%C3%8DA;Hecho+con+%E2%99%A5+en+Loja%2C+Ecuador" alt=""/>
 
-**Período académico**  
-Septiembre 2026 – Febrero 2027
+<sub>Una aplicación académica para explorar la ciudad a través de algoritmos y estructuras de datos.</sub>
 
-<br/>
-
-<img src="ESPACIO_PARA_BANNER_FINAL_FUTURISTA" width="95%" alt="Banner final"/>
-
-<br/>
-
-<font color="#00D9FF">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</font>
-
-### **LOJA CULTURA PULSE**
-
-<font color="#BC13FE">Estructuras de Datos · Algoritmos · Innovación</font>
-
-*Loja, Ecuador · 2026*
-
-<font color="#FF3CAC">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</font>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:4C1D95,100:0B1026&height=130&section=footer&animation=twinkling" width="100%" alt=""/>
 
 </div>
