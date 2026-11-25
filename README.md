@@ -1,37 +1,424 @@
- <div align="center">
+<div align="center">
 
-<img width="320" height="132" alt="Universidad Nacional de Loja" src="https://github.com/user-attachments/assets/e533f931-15cc-4298-94ed-267c0181a5dd" />
+<img width="320" height="132" alt="Universidad Nacional de Loja" src="https://github.com/user-attachments/assets/e533f931-15cc-4298-94ed-267c0181a5dd"/>
 
-# **UNIVERSIDAD NACIONAL DE LOJA**
+# UNIVERSIDAD NACIONAL DE LOJA
 
-### *Carrera de Computación · Tercer Ciclo*
+### Carrera de Computación · Tercer Ciclo
 
-<br>
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=38BDF8&fontSize=42&height=100&text=LOJA%20CULTURA%20PULSE&fontAlignY=55" alt="LOJA CULTURA PULSE" width="100%"/>
+<img src="https://img.shields.io/badge/◈_LOJA_CULTURA_PULSE-111827?style=for-the-badge&labelColor=7C3AED&color=06B6D4" alt="Loja Cultura Pulse"/>
 
-### *INTELLIGENT CULTURAL DISCOVERY SYSTEM*
+### **Sistema de Autocompletado Cultural del FIAVL**
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400" alt="Animación tecnológica"/>
+<img src="https://img.shields.io/badge/BÚSQUEDA_POR_PREFIJOS-00D9FF?style=for-the-badge&logoColor=black"/>
+<img src="https://img.shields.io/badge/MEMORIA_INTELIGENTE-9B5DE5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ESTRUCTURAS_NO_LINEALES-FF3CAC?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ALGORITMOS-39FF14?style=for-the-badge&logoColor=black"/>
 
-<br>
+<br/>
 
-> **Explora lo desconocido. Encuentra lo extraordinario.**
+<em>La velocidad de búsqueda se encuentra con la inteligencia de las estructuras de datos.</em>
 
-<br>
+<br/><br/>
 
-[![JAVASCRIPT](https://img.shields.io/badge/JAVASCRIPT-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/es/docs/Web/JavaScript)
-[![NODE.JS](https://img.shields.io/badge/NODE.JS-0D1117?style=for-the-badge&logo=node.js&logoColor=5FA04E)](https://nodejs.org/)
-[![EXPRESS](https://img.shields.io/badge/EXPRESS-0D1117?style=for-the-badge&logo=express&logoColor=FFFFFF)](https://expressjs.com/)
-[![DATA STRUCTURES](https://img.shields.io/badge/DATA_STRUCTURES-0D1117?style=for-the-badge&logo=databricks&logoColor=38BDF8)](#-núcleo-algorítmico)
-[![STATUS](https://img.shields.io/badge/PROJECT-EN_DEVELOPMENT-8B5CF6?style=for-the-badge)](#-roadmap-de-evolución)
+<img src="ESPACIO_PARA_BANNER_FUTURISTA_FIAVL" width="95%" alt="Banner futurista del proyecto"/>
 
-<br>
+<br/>
 
-### 👨‍🏫 DOCENTE
+<kbd> NODE.JS </kbd> · <kbd> EXPRESS </kbd> · <kbd> JAVASCRIPT </kbd> · <kbd> TRIE </kbd> · <kbd> SIEVE </kbd>
+
+<br/><br/>
+
+<font color="#38BDF8">●</font> **GRUPO 4** &nbsp; <font color="#A855F7">●</font> **ESTRUCTURA DE DATOS** &nbsp; <font color="#F472B6">●</font> **2026–2027**
+
+</div>
+
+---
+
+# 🟣 01 · EL PROYECTO
+
+<details open>
+<summary><b>▸ Identidad y propósito</b></summary>
+
+<br/>
+
+**Loja Cultura Pulse** es un sistema de autocompletado enfocado en la búsqueda de información turística y cultural relacionada con el Festival Internacional de Artes Vivas de Loja (FIAVL).
+
+El proyecto combina estructuras de datos no lineales y algoritmos de gestión de memoria para ofrecer sugerencias de búsqueda en tiempo real, reducir operaciones repetitivas y optimizar la recuperación de información.
+
+Su funcionamiento se fundamenta en un árbol de prefijos **Trie**, un índice dinámico basado en **Map** y un sistema de caché que permite comparar diferentes estrategias de reemplazo de elementos.
+
+</details>
+
+<div align="center">
+
+| <img src="https://img.shields.io/badge/01-TRIE-00D9FF?style=for-the-badge"/> | <img src="https://img.shields.io/badge/02-CACHE-BC13FE?style=for-the-badge"/> | <img src="https://img.shields.io/badge/03-RENDIMIENTO-FF3CAC?style=for-the-badge"/> |
+|:---:|:---:|:---:|
+| Búsqueda por prefijos | Gestión de memoria | Medición en milisegundos |
+
+</div>
+
+<div align="center">
+
+<img src="ESPACIO_PARA_CAPTURA_GENERAL_DEL_PROYECTO" width="95%" alt="Vista principal del proyecto"/>
+
+<sub>Figura 1. Interfaz principal del sistema de autocompletado cultural.</sub>
+
+</div>
+
+---
+
+# 🔵 02 · INTERFAZ Y EXPERIENCIA DE BÚSQUEDA
+
+La interfaz permite al usuario ingresar el nombre de un lugar, evento o referencia cultural para obtener sugerencias de forma dinámica, sin necesidad de escribir el término completo.
+
+### ✦ Características de interacción
+
+- 🔹 Búsqueda mientras se escribe.
+- 🔹 Autocompletado de nombres.
+- 🔹 Recuperación de coincidencias mediante prefijos.
+- 🔹 Procesamiento de consultas en el servidor.
+- 🔹 Respuestas asincrónicas desde la interfaz.
+- 🔹 Visualización del estado de funcionamiento.
+
+<div align="center">
+
+<img src="ESPACIO_PARA_CAPTURA_DEL_BUSCADOR" width="95%" alt="Buscador del FIAVL"/>
+
+<sub>Figura 2. Consulta dinámica de lugares y referencias culturales.</sub>
+
+</div>
+
+### ◈ Ejemplo de búsqueda
+
+```text
+┌─────────────────────────────────────────────────────────┐
+│  🔎  Escribe un lugar, obra o evento...              │
+└─────────────────────────────────────────────────────────┘
+
+Entrada:  tea
+
+             ↓
+
+Resultados sugeridos:
+
+   ▸ Teatro Bolívar
+   ▸ Teatro Municipal
+   ▸ Teatro Benjamín Carrión
+```
+
+<sub>Ejemplo ilustrativo de sugerencias; los resultados dependen del catálogo cargado.</sub>
+
+---
+
+# 🟢 03 · ARQUITECTURA Y ESTRUCTURAS
+
+El núcleo del sistema se construye a partir de tres componentes principales, cada uno con una responsabilidad específica dentro de la recuperación y administración de consultas.
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/ÁRBOL_DE_PREFIJOS-00E5FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/TABLA_HASH-9D4EDD?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LISTA_DOBLE-FF4ECD?style=for-the-badge"/>
+
+</div>
+
+| Estructura | Función dentro del sistema | Complejidad |
+|---|---|---|
+| 🌳 **Trie** | Organiza el catálogo por caracteres compartidos y recupera coincidencias de prefijos. | O(L) para recorrer el prefijo |
+| ⚡ **Map (Tabla Hash)** | Localiza las claves de consulta y referencias a nodos de caché. | O(1) promedio |
+| 🔗 **Lista doblemente enlazada** | Administra los nodos de memoria mediante referencias `prev` y `next`. | O(1) para operaciones locales con referencias |
+
+### ◈ Relación entre componentes
+
+```mermaid
+flowchart TD
+    A["🔍 Consulta"] --> B["🌳 Trie"]
+    A --> C["⚡ Map"]
+    C --> D["🔗 Lista doble"]
+    B --> E["📌 Coincidencias"]
+    D --> F["🧠 Caché"]
+    F --> E
+
+    style A fill:#0F172A,stroke:#38BDF8,color:#FFFFFF
+    style B fill:#172554,stroke:#00E5FF,color:#FFFFFF
+    style C fill:#4C1D95,stroke:#C084FC,color:#FFFFFF
+    style D fill:#831843,stroke:#FF4ECD,color:#FFFFFF
+    style F fill:#164E63,stroke:#22D3EE,color:#FFFFFF
+    style E fill:#065F46,stroke:#34D399,color:#FFFFFF
+```
+
+<div align="center">
+
+<img src="ESPACIO_PARA_DIAGRAMA_REAL_DE_ESTRUCTURAS" width="90%" alt="Diagrama de estructuras"/>
+
+<sub>Figura 3. Interacción entre el Trie, la tabla Hash y la lista doblemente enlazada.</sub>
+
+</div>
+
+---
+
+# 🟠 04 · ÁRBOL DE PREFIJOS (TRIE)
+
+<details open>
+<summary><b>▸ Organización y recuperación de coincidencias</b></summary>
+
+<br/>
+
+El Trie es una estructura de datos no lineal que organiza cadenas mediante caracteres compartidos. Cada nodo representa una parte de la palabra y permite avanzar por una secuencia de caracteres hasta localizar el prefijo consultado.
+
+Esta estructura evita tener que comparar individualmente cada nombre del catálogo para determinar si coincide con la entrada del usuario.
+
+</details>
+
+### ◈ Ejemplo de estructura
+
+```mermaid
+flowchart TD
+    R[" raíz "] --> T["t"]
+    R --> P["p"]
+    T --> E["e"]
+    E --> A["a"]
+    A --> T2["t"]
+    T2 --> R2["r"]
+    R2 --> O["o"]
+    P --> A2["a"]
+    A2 --> R3["r"]
+    R3 --> Q["q"]
+
+    style R fill:#581C87,stroke:#D946EF,color:white
+    style T fill:#075985,stroke:#00E5FF,color:white
+    style E fill:#075985,stroke:#00E5FF,color:white
+    style A fill:#075985,stroke:#00E5FF,color:white
+    style T2 fill:#075985,stroke:#00E5FF,color:white
+    style R2 fill:#075985,stroke:#00E5FF,color:white
+    style O fill:#047857,stroke:#34D399,color:white
+    style P fill:#9D174D,stroke:#FF4ECD,color:white
+    style A2 fill:#9D174D,stroke:#FF4ECD,color:white
+    style R3 fill:#9D174D,stroke:#FF4ECD,color:white
+    style Q fill:#047857,stroke:#34D399,color:white
+```
+
+### ◈ Análisis de búsqueda
+
+| Operación | Descripción |
+|---|---|
+| Inserción | Incorpora caracteres y crea nodos cuando no existen. |
+| Recorrido | Avanza por los caracteres de la consulta. |
+| Prefijo | Localiza el nodo correspondiente a la cadena ingresada. |
+| Recuperación | Obtiene las coincidencias descendientes del nodo localizado. |
+
+<blockquote>
+
+<font color="#00D9FF">**Complejidad de recorrido: O(L)**</font>
+
+Donde `L` representa la longitud del prefijo ingresado, sin considerar el costo de enumerar todos los resultados encontrados.
+
+</blockquote>
+
+<div align="center">
+
+<img src="ESPACIO_PARA_VISUALIZACION_DEL_TRIE" width="95%" alt="Visualización del Trie"/>
+
+<sub>Figura 4. Representación gráfica de la búsqueda a través de caracteres compartidos.</sub>
+
+</div>
+
+---
+
+# 🩷 05 · SISTEMA DE CACHÉ Y POLÍTICAS DE REEMPLAZO
+
+El sistema utiliza memoria caché para conservar consultas y reducir la necesidad de repetir búsquedas. Su capacidad es limitada, por lo que requiere políticas que determinen qué elementos deben mantenerse y cuáles deben eliminarse.
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/FIFO-FF9F1C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LRU-BC13FE?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SIEVE-00D9FF?style=for-the-badge"/>
+
+</div>
+
+### ◈ Comparación de políticas
+
+| Política | Estrategia | Comportamiento |
+|---|---|---|
+| 🟠 **FIFO** | Primero en entrar, primero en salir | Expulsa el elemento más antiguo sin considerar las consultas repetidas. |
+| 🟣 **LRU** | Menos recientemente utilizado | Reorganiza nodos ante los aciertos y elimina el elemento menos reciente. |
+| 🔵 **SIEVE** | Marcado y barrido | Utiliza un estado de visita y un puntero de recorrido para gestionar la expulsión. |
+
+### ◈ ¿Por qué SIEVE?
+
+SIEVE utiliza un mecanismo de promoción perezosa: cuando un elemento es consultado, se marca como visitado sin reorganizar físicamente su nodo.
+
+Esto reduce las operaciones de reordenamiento que se producen en políticas como LRU.
+
+<div align="center">
+
+<img src="ESPACIO_PARA_DIAGRAMA_ANIMADO_O_CAPTURA_SIEVE" width="95%" alt="Funcionamiento de SIEVE"/>
+
+<sub>Figura 5. Administración de elementos y mecanismo de barrido de SIEVE.</sub>
+
+</div>
+
+### 🔹 Funcionamiento de SIEVE
+
+```mermaid
+flowchart TD
+    A["📥 Insertar elemento"] --> B["visited = false"]
+    B --> C["Elemento almacenado"]
+    C --> D{"¿Consulta existente?"}
+    D -->|"Sí"| E["visited = true"]
+    E --> F["Conservar posición"]
+    D -->|"No / capacidad llena"| G["Puntero hand"]
+    G --> H{"Estado del nodo"}
+    H -->|"visited = true"| I["Cambiar a false y avanzar"]
+    I --> G
+    H -->|"visited = false"| J["Expulsar nodo"]
+    J --> K["Insertar nuevo elemento"]
+
+    style A fill:#0E7490,stroke:#22D3EE,color:white
+    style E fill:#6D28D9,stroke:#C084FC,color:white
+    style G fill:#9D174D,stroke:#FF4ECD,color:white
+    style J fill:#B91C1C,stroke:#F87171,color:white
+    style K fill:#047857,stroke:#34D399,color:white
+```
+
+---
+
+# 🟡 06 · FLUJO DE EJECUCIÓN Y RENDIMIENTO
+
+El controlador central coordina la interfaz, las peticiones del servidor y las estructuras de datos, permitiendo que cada consulta se procese a través de una ruta de recuperación optimizada.
+
+### ◈ Secuencia de procesamiento
+
+```mermaid
+sequenceDiagram
+    participant U as Usuario
+    participant I as Interfaz
+    participant S as Servidor Node.js
+    participant C as Caché Map
+    participant T as Trie
+
+    U->>I: Escribe un prefijo
+    I->>S: Petición asincrónica
+    S->>C: Consultar clave
+    alt Acierto de caché
+        C-->>S: Resultado almacenado
+    else Fallo de caché
+        S->>T: Buscar prefijo
+        T-->>S: Coincidencias
+        S->>C: Guardar resultados
+    end
+    S-->>I: Resultados + métricas
+    I-->>U: Mostrar sugerencias
+```
+
+### ◈ Evaluación de rendimiento
+
+El sistema permite observar las operaciones de consulta y analizar las diferencias entre las políticas de memoria.
+
+| Indicador | Utilidad |
+|---|---|
+| ⏱️ Tiempo de respuesta | Medir la duración de la operación. |
+| 🟢 Aciertos | Cuantificar consultas recuperadas desde caché. |
+| 🔴 Fallos | Identificar consultas que requieren procesamiento. |
+| 📦 Tamaño de caché | Observar la ocupación de memoria lógica. |
+| ♻️ Expulsiones | Analizar la renovación de elementos almacenados. |
+| 📈 Rendimiento | Comparar políticas bajo una misma secuencia de consultas. |
+
+<div align="center">
+
+<img src="ESPACIO_PARA_GRAFICAS_BENCHMARK_FIFO_LRU_SIEVE" width="95%" alt="Comparación de políticas de caché"/>
+
+<sub>Figura 6. Comparativa de rendimiento de FIFO, LRU y SIEVE.</sub>
+
+</div>
+
+---
+
+# 🧬 07 · EVIDENCIAS Y EVOLUCIÓN
+
+### ◈ Galería de desarrollo
+
+<div align="center">
+
+| 🔷 Interfaz | 🟣 Procesamiento |
+|:---:|:---:|
+| <img src="ESPACIO_CAPTURA_INTERFAZ" width="100%" alt="Interfaz"/> | <img src="ESPACIO_CAPTURA_PROCESAMIENTO" width="100%" alt="Procesamiento"/> |
+| <sub>Figura 7. Buscador</sub> | <sub>Figura 8. Servidor</sub> |
+
+| 🟢 Estructuras | 🩷 Experimentación |
+|:---:|:---:|
+| <img src="ESPACIO_CAPTURA_TRIE_CACHE" width="100%" alt="Estructuras"/> | <img src="ESPACIO_CAPTURA_BENCHMARK" width="100%" alt="Benchmark"/> |
+| <sub>Figura 9. Estructuras</sub> | <sub>Figura 10. Evaluación</sub> |
+
+</div>
+
+### ◈ Estado de desarrollo
+
+| Componente | Estado |
+|---|:---:|
+| Autocompletado con Trie | 🟢 |
+| Servidor Node.js y Express | 🟢 |
+| Índice mediante Map | 🟢 |
+| Lista doblemente enlazada | 🟢 |
+| Política FIFO | 🟢 |
+| Política LRU | 🟢 |
+| Política SIEVE | 🟢 |
+| Búsquedas por prefijos | 🟢 |
+| Métricas de consultas | 🟢 |
+| Mejoras visuales de interfaz | 🟡 |
+| Experimentos y comparativas ampliadas | 🟡 |
+
+<sub>🟢 Implementado · 🟡 En mejora o validación · ⚪ Pendiente</sub>
+
+### ◈ Instalación y ejecución
+
+```bash
+# Clonar el repositorio
+git clone URL_DEL_REPOSITORIO
+
+# Acceder a la carpeta
+cd NOMBRE_DEL_PROYECTO
+
+# Instalar dependencias
+npm install
+
+# Ejecutar
+npm start
+```
+
+<details>
+<summary><b>📌 Requisitos del entorno</b></summary>
+
+- Node.js
+- npm
+- Navegador web actualizado
+- Git
+
+</details>
+
+---
+
+# 🔴 08 · EQUIPO Y CRÉDITOS
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/UNIVERSIDAD_NACIONAL_DE_LOJA-0D1B2A?style=for-the-badge&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/CARRERA_DE_COMPUTACIÓN-6D28D9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GRUPO_4-DB2777?style=for-the-badge"/>
+
+<br/>
+
+### 👨‍🏫 Docente
+
 **Ing. Cristian Narvaez**
 
-### ◈ GRUPO 4 ◈
+<br/>
+
+### 👨‍💻 Integrantes
 
 **Yimmy Onner Angulo Torres**  
 **Richard Santiago Guaman Sanchez**  
@@ -39,894 +426,27 @@
 **Joaquin Emilio Moscol Castillo**  
 **Erick Jahirs Rogel Baque**
 
-<br>
+<br/>
 
-### 📡 PERÍODO ACADÉMICO
-**Septiembre 2026 — Febrero 2027**
+### 📚 Carrera de Computación · Tercer Ciclo
 
-</div>
+**Período académico**  
+Septiembre 2026 – Febrero 2027
 
----
+<br/>
 
-<div align="center">
+<img src="ESPACIO_PARA_BANNER_FINAL_FUTURISTA" width="95%" alt="Banner final"/>
 
-# `01` / SYSTEM OVERVIEW
+<br/>
 
-</div>
-
-## ◈ Una nueva forma de explorar la cultura
-
-**Loja Cultura Pulse** es una propuesta de sistema inteligente orientado a la búsqueda, exploración y descubrimiento de información cultural, artística y turística vinculada al Festival Internacional de Artes Vivas de Loja.
-
-La plataforma busca transformar la manera en que un visitante encuentra experiencias, permitiendo consultar información mediante prefijos, recuperar resultados de forma eficiente, explorar diferentes categorías y descubrir alternativas que podrían pasar desapercibidas en una búsqueda convencional.
-
-Su núcleo está construido alrededor de estructuras de datos y algoritmos desarrollados para estudiar el comportamiento de las consultas, optimizar la recuperación de información y analizar el rendimiento de diferentes estrategias de procesamiento.
-
-<div align="center">
-
-<img src="ESPACIO_PARA_BANNER_FUTURISTA_DEL_PROYECTO" width="100%" alt="Banner principal de Loja Cultura Pulse"/>
-
-<sub>Figura 01. Concepto visual de la plataforma de exploración cultural.</sub>
-
-</div>
-
----
-
-<div align="center">
-
-## `02` / THE EXPERIENCE
-
-### El visitante. La consulta. El descubrimiento.
-
-</div>
-
-El sistema no está pensado para que el visitante conozca previamente todos los nombres del catálogo. La idea es que pueda comenzar con una palabra, una categoría o una referencia parcial y avanzar progresivamente hacia una experiencia de su interés.
-
-<details>
-<summary><b>◉ Exploración instantánea</b></summary>
-
-El usuario escribe una consulta y recibe coincidencias sin necesidad de completar el nombre de un evento, lugar u obra.
-
-</details>
-
-<details>
-<summary><b>◉ Recuperación inteligente</b></summary>
-
-El motor aprovecha estructuras especializadas para localizar coincidencias y reutilizar resultados previamente procesados.
-
-</details>
-
-<details>
-<summary><b>◉ Descubrimiento cultural</b></summary>
-
-La plataforma busca evolucionar hacia filtros, recomendaciones y mecanismos que permitan encontrar experiencias más allá de una coincidencia textual exacta.
-
-</details>
-
-<details>
-<summary><b>◉ Exploración analítica</b></summary>
-
-El usuario y el equipo de desarrollo podrán observar métricas de consulta y evaluar el comportamiento de los algoritmos que intervienen en el procesamiento.
-
-</details>
-
----
-
-<div align="center">
-
-## `03` / SEARCH INTERFACE
-
-### El punto de entrada al sistema
-
-</div>
-
-El buscador constituye el núcleo de interacción entre el usuario y el catálogo cultural. Su funcionamiento se basa en la consulta dinámica y en la recuperación progresiva de resultados mediante prefijos.
-
-### Funcionalidades del buscador
-
-| ID | Capacidad | Descripción |
-|:---:|---|---|
-| S-01 | Autocompletado | Genera sugerencias mientras se escribe. |
-| S-02 | Prefijos | Recupera registros a partir de una cadena inicial. |
-| S-03 | Normalización | Reduce diferencias de escritura y formato. |
-| S-04 | Consulta dinámica | Actualiza las coincidencias durante la entrada de texto. |
-| S-05 | Cache de consultas | Reutiliza resultados almacenados. |
-| S-06 | Métricas | Expone información de la ejecución. |
-| S-07 | Ordenamiento | Organiza resultados mediante algoritmos implementados. |
-| S-08 | Búsqueda alternativa | Propuesta de recuperación aproximada para consultas sin coincidencia. |
-
-<div align="center">
-
-<img src="ESPACIO_PARA_CAPTURA_DEL_AUTOCOMPLETADO" width="95%" alt="Interfaz del buscador"/>
-
-<sub>Figura 02. Interfaz de búsqueda dinámica y recuperación de coincidencias.</sub>
-
-</div>
-
-### ◈ Flujo de una consulta
-
-```mermaid
-flowchart TD
-    A(["Entrada del usuario"]) --> B["Normalización"]
-    B --> C{"¿Consulta almacenada?"}
-    C -->|"Sí"| D["Recuperación desde Cache SIEVE"]
-    C -->|"No"| E["Búsqueda en Trie"]
-    E --> F["Recuperación de coincidencias"]
-    F --> G["Registro en Cache"]
-    D --> H["Presentación de resultados"]
-    G --> H
-    H --> I["Métricas de ejecución"]
-
-    style A fill:#111827,stroke:#38bdf8,color:#fff
-    style B fill:#172554,stroke:#38bdf8,color:#fff
-    style D fill:#164e63,stroke:#22d3ee,color:#fff
-    style E fill:#312e81,stroke:#a78bfa,color:#fff
-    style I fill:#3b0764,stroke:#c084fc,color:#fff
-```
-
----
-
-<div align="center">
-
-# `04` / BEYOND THE SEARCH
-
-### Capacidades que queremos incorporar
-
-</div>
-
-El objetivo de evolución del sistema es convertir el autocompletado en una herramienta de exploración cultural más completa. Estas funciones representan extensiones propuestas que se desarrollarán progresivamente.
-
-### `01` — Recuperación tolerante a errores
-
-Encontrar nombres similares incluso cuando la consulta contiene errores ortográficos, caracteres incorrectos o palabras incompletas que no producen una coincidencia exacta.
-
-**Ejemplo:**
-
-```text
-Entrada: Vilcabnaba
-
-        ↓ Recuperación aproximada
-
-Posible coincidencia:
-Vilcabamba
-```
-
-**Tecnología propuesta:** BK-Tree, Distancia de Levenshtein y ranking de similitud.
-
----
-
-### `02` — Índice multidimensional de contenido
-
-Buscar en diferentes atributos del catálogo sin depender únicamente del nombre principal del registro.
-
-```text
-Consulta: "teatro"
-
-Coincidencias en:
-├── Nombre
-├── Descripción
-├── Categoría
-├── Artistas
-├── Ubicación
-└── Palabras clave
-```
-
-**Tecnología propuesta:** Índice invertido, HashMap y conjuntos de resultados.
-
----
-
-### `03` — Agenda temporal de experiencias
-
-Permitir que el visitante seleccione diferentes actividades y consulte si los horarios son compatibles.
-
-- Selección de eventos.
-- Orden cronológico.
-- Consulta de disponibilidad temporal en el dataset.
-- Detección de actividades simultáneas.
-- Identificación de intervalos libres.
-- Organización de una agenda personal.
-
-**Tecnología propuesta:** Ordenamiento por intervalos, estructuras temporales y Árbol de Intervalos (Interval Tree).
-
-<div align="center">
-
-<img src="ESPACIO_PARA_CAPTURA_DE_AGENDA" width="90%" alt="Agenda cultural"/>
-
-<sub>Figura 03. Concepto de planificación temporal de actividades.</sub>
-
-</div>
-
----
-
-### `04` — Sistema de afinidad cultural
-
-Crear recomendaciones basadas en características compartidas entre eventos, categorías, ubicaciones, artistas y palabras clave.
-
-El sistema podría asignar puntuaciones a los resultados para ordenar las alternativas según el grado de similitud.
-
-**Tecnología propuesta:**
-
-- Similitud de atributos.
-- Ponderación de características.
-- Conjuntos de palabras clave.
-- Ranking de coincidencias.
-
----
-
-### `05` — Radar de actividad cultural
-
-Analizar las consultas realizadas para identificar patrones de interés.
-
-| Indicador | Propósito |
-|---|---|
-| Consulta más frecuente | Identificar el término dominante. |
-| Categoría más explorada | Analizar preferencias generales. |
-| Búsquedas sin resultados | Detectar oportunidades de mejora del catálogo. |
-| Consultas nuevas | Observar términos no registrados previamente. |
-| Tendencia de consultas | Analizar cambios entre períodos. |
-
-**Tecnología propuesta:** HashMap, contadores de frecuencia y ventanas temporales.
-
----
-
-### `06` — Descubrimiento fuera del ranking
-
-Una función orientada a explorar registros que no necesariamente son los más populares.
-
-En lugar de mostrar siempre los resultados con mayor frecuencia, el sistema podría priorizar registros poco consultados que coincidan con los intereses del visitante.
-
-> El objetivo es diversificar el descubrimiento y evitar que las mismas experiencias aparezcan constantemente.
-
-**Tecnología propuesta:** métricas de popularidad, puntuación de exploración y selección ponderada.
-
----
-
-### `07` — Comparador de experiencias
-
-Permitir seleccionar varias actividades y visualizar sus diferencias.
-
-| Criterio | Evento A | Evento B | Evento C |
-|---|---|---|---|
-| Categoría | [Dato] | [Dato] | [Dato] |
-| Ubicación | [Dato] | [Dato] | [Dato] |
-| Fecha | [Dato] | [Dato] | [Dato] |
-| Duración | [Dato] | [Dato] | [Dato] |
-| Palabras clave | [Dato] | [Dato] | [Dato] |
-
-**Tecnología propuesta:** selección de registros, filtros multicriterio y comparación estructurada.
-
----
-
-### `08` — Diagnóstico del catálogo
-
-Una herramienta para revisar la consistencia de los datos antes de utilizar el catálogo en búsquedas y experimentos.
-
-- Registros duplicados.
-- Identificadores repetidos.
-- Datos incompletos.
-- Categorías inválidas.
-- Nombres inconsistentes.
-- Fechas mal formadas.
-- Registros sin palabras clave.
-
-**Tecnología propuesta:** HashMap, Set, normalización y validadores.
-
----
-
-<div align="center">
-
-# `05` / ALGORITHMIC CORE
-
-### Estructuras que impulsan el sistema
-
-</div>
-
-Cada estructura de datos se integra con una responsabilidad concreta. El propósito es evitar implementaciones decorativas y aprovecharlas en operaciones que realmente requieren sus características.
-
-<table>
-<thead>
-<tr>
-<th>ESTRUCTURA</th>
-<th>APLICACIÓN</th>
-<th>OPERACIÓN CLAVE</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>Trie</b></td>
-<td>Autocompletado por prefijos</td>
-<td>Recorrido de caracteres</td>
-</tr>
-<tr>
-<td><b>Lista doblemente enlazada</b></td>
-<td>Administración de nodos de caché</td>
-<td>Inserción / eliminación</td>
-</tr>
-<tr>
-<td><b>HashMap</b></td>
-<td>Acceso directo, índices y frecuencias</td>
-<td>Consulta por clave</td>
-</tr>
-<tr>
-<td><b>BK-Tree</b></td>
-<td>Recuperación de términos similares</td>
-<td>Distancia de edición</td>
-</tr>
-<tr>
-<td><b>Índice invertido</b></td>
-<td>Consulta por atributos y palabras</td>
-<td>Intersección de postings</td>
-</tr>
-<tr>
-<td><b>Interval Tree</b></td>
-<td>Consulta de eventos por tiempo</td>
-<td>Intersección de intervalos</td>
-</tr>
-<tr>
-<td><b>Set / Bitset</b></td>
-<td>Filtros combinados y selección</td>
-<td>Unión / intersección</td>
-</tr>
-<tr>
-<td><b>Pila</b></td>
-<td>Navegación y estados anteriores</td>
-<td>Push / Pop</td>
-</tr>
-</tbody>
-</table>
-
-### ◈ Mapa de responsabilidades
-
-```mermaid
-flowchart LR
-    Q["Consultas"] --> T["Trie"]
-    Q --> I["Índice Invertido"]
-    Q --> BK["BK-Tree"]
-    T --> C["Cache SIEVE"]
-    I --> F["Filtros"]
-    BK --> R["Ranking"]
-    F --> R
-    C --> O["Resultados"]
-    R --> O
-    O --> H["Historial"]
-    H --> P["Pila de navegación"]
-
-    style T fill:#172554,stroke:#38bdf8,color:#fff
-    style C fill:#164e63,stroke:#22d3ee,color:#fff
-    style I fill:#312e81,stroke:#a78bfa,color:#fff
-    style BK fill:#3b0764,stroke:#c084fc,color:#fff
-    style R fill:#4c1d95,stroke:#a78bfa,color:#fff
-```
-
----
-
-<div align="center">
-
-# `06` / MEMORY PROTOCOL
-
-### Cache SIEVE · Reutilización inteligente
-
-</div>
-
-La caché permite conservar consultas y resultados para reducir el trabajo repetitivo de recuperación. Su administración se apoya en una lista doblemente enlazada y en la política SIEVE.
-
-### ¿Qué ocurre en memoria?
-
-```mermaid
-flowchart TD
-    A["Consulta entrante"] --> B{"Cache Hit?"}
-    B -->|"HIT"| C["Recuperar resultado"]
-    B -->|"MISS"| D["Ejecutar búsqueda"]
-    D --> E["Insertar resultado"]
-    E --> F{"¿Capacidad disponible?"}
-    F -->|"Sí"| G["Conservar elemento"]
-    F -->|"No"| H["Proceso de evicción SIEVE"]
-    H --> G
-    G --> I["Actualizar estadísticas"]
-    C --> I
-
-    style C fill:#064e3b,stroke:#34d399,color:#fff
-    style D fill:#172554,stroke:#38bdf8,color:#fff
-    style H fill:#4c1d95,stroke:#c084fc,color:#fff
-```
-
-### Métricas de observación
-
-<div align="center">
-
-<img src="ESPACIO_PARA_DASHBOARD_DE_CACHE" width="95%" alt="Dashboard de caché"/>
-
-<sub>Figura 04. Panel de administración y estadísticas de memoria.</sub>
-
-</div>
-
-| Métrica | Descripción |
-|---|---|
-| `Hits` | Consultas recuperadas desde la caché. |
-| `Misses` | Consultas que requieren recuperación. |
-| `Hit Rate` | Proporción de consultas atendidas desde caché. |
-| `Cache Size` | Elementos almacenados actualmente. |
-| `Capacity` | Límite de elementos permitido. |
-| `Evictions` | Elementos expulsados. |
-| `Latency` | Tiempo de respuesta medido. |
-
-### ◈ Políticas bajo comparación
-
-| Política | Principio de funcionamiento |
-|---|---|
-| FIFO | Expulsión según orden de entrada. |
-| LRU | Conservación según uso reciente. |
-| SIEVE | Administración de elementos mediante marcas de visita y recorrido de expulsión. |
-
-El módulo de experimentación permitirá comparar el comportamiento de estas políticas utilizando las mismas secuencias de consulta, tamaños de caché y condiciones de ejecución.
-
----
-
-<div align="center">
-
-# `07` / PERFORMANCE LAB
-
-### Medir. Comparar. Interpretar.
-
-</div>
-
-El Laboratorio de Rendimiento será el espacio dedicado a estudiar el comportamiento de los algoritmos mediante ejecuciones controladas.
-
-En lugar de asumir que una estructura es más eficiente únicamente por su complejidad teórica, se busca observar cómo responde bajo distintos tamaños de datos y patrones de acceso.
-
-### Banco de experimentos
-
-| Escenario | Objetivo |
-|---|---|
-| Catálogo reducido | Analizar el comportamiento con pocos registros. |
-| Catálogo intermedio | Observar el crecimiento del tiempo de ejecución. |
-| Catálogo ampliado | Evaluar escalabilidad. |
-| Consultas repetidas | Medir la reutilización de caché. |
-| Consultas aleatorias | Analizar accesos dispersos. |
-| Consultas inexistentes | Estudiar fallos de recuperación. |
-| Prefijos cortos | Evaluar cantidad de coincidencias. |
-| Prefijos largos | Evaluar recuperación más específica. |
-
-### Variables registradas
-
-- Tiempo de ejecución.
-- Número de comparaciones.
-- Número de operaciones.
-- Variabilidad de las muestras.
-- Tamaño de entrada.
-- Memoria aproximada.
-- Porcentaje de reutilización de caché.
-
-<div align="center">
-
-<img src="ESPACIO_PARA_GRAFICA_DE_RENDIMIENTO" width="95%" alt="Gráfica de rendimiento"/>
-
-<sub>Figura 05. Comparación experimental de algoritmos.</sub>
-
-</div>
-
-### Comparativas previstas
-
-| Comparación | Pregunta experimental |
-|---|---|
-| Trie vs búsqueda secuencial | ¿Qué ventaja aporta el índice de prefijos? |
-| Búsqueda binaria vs secuencial | ¿Cómo cambia el tiempo sobre datos ordenados? |
-| Cache SIEVE vs FIFO | ¿Cómo afecta la política de expulsión a los hits? |
-| Cache SIEVE vs LRU | ¿Qué comportamiento presentan ante consultas repetidas? |
-| MergeSort vs referencia nativa | ¿Cómo se comportan los métodos al ordenar datasets crecientes? |
-| BK-Tree vs búsqueda completa por similitud | ¿Qué impacto tiene la recuperación aproximada? |
-
-> Los resultados, gráficas y conclusiones se incorporarán después de ejecutar los experimentos. No se utilizarán valores simulados como resultados finales.
-
----
-
-<div align="center">
-
-# `08` / DATA INTELLIGENCE
-
-### El catálogo también forma parte del algoritmo
-
-</div>
-
-La calidad de los resultados depende tanto de las estructuras implementadas como de la organización de los datos.
-
-Por ello, el catálogo cultural debe contar con un formato consistente, que permita indexar los registros, generar sugerencias y aplicar filtros.
-
-### Modelo de registro propuesto
-
-```json
-{
-  "id": "EVT-001",
-  "nombre": "Nombre del evento",
-  "categoria": "Teatro",
-  "tipo": "Presentacion",
-  "ubicacion": "Loja, Ecuador",
-  "fecha": "2026-11-25",
-  "descripcion": "Descripción de la experiencia",
-  "palabrasClave": [
-    "arte",
-    "escena",
-    "cultura"
-  ]
-}
-```
-
-<sub>Ejemplo ilustrativo de formato de registro; no corresponde a un evento confirmado.</sub>
-
-### Control de calidad
-
-```mermaid
-flowchart TD
-    A["Registro entrante"] --> B["Validación de campos"]
-    B --> C["Normalización"]
-    C --> D["Verificación de identificador"]
-    D --> E["Detección de duplicados"]
-    E --> F["Revisión de categorías"]
-    F --> G["Registro válido"]
-    F --> H["Registro observado"]
-
-    style A fill:#172554,stroke:#38bdf8,color:#fff
-    style G fill:#064e3b,stroke:#34d399,color:#fff
-    style H fill:#4c1d95,stroke:#c084fc,color:#fff
-```
-
----
-
-<div align="center">
-
-# `09` / SYSTEM ARCHITECTURE
-
-### Separación de responsabilidades
-
-</div>
-
-La arquitectura se organiza para separar la interfaz de usuario, el procesamiento de peticiones, las estructuras de datos, la administración de caché y el módulo experimental.
-
-```mermaid
-flowchart TB
-    U["USUARIO"] --> UI["INTERFAZ WEB"]
-    UI --> API["SERVIDOR / API"]
-    API --> N["NORMALIZACIÓN"]
-    N --> M["GESTOR DE BÚSQUEDA"]
-    M --> CA["CACHE"]
-    CA -->|Hit| R["RESPUESTA"]
-    CA -->|Miss| DS["ESTRUCTURAS DE DATOS"]
-    DS --> T["TRIE"]
-    DS --> MS["MERGESORT"]
-    DS --> BS["BÚSQUEDAS"]
-    DS --> IX["ÍNDICES"]
-    DS --> R
-    R --> UI
-    M --> MET["MÉTRICAS"]
-    MET --> LAB["LABORATORIO"]
-
-    style UI fill:#172554,stroke:#38bdf8,color:#fff
-    style API fill:#172554,stroke:#60a5fa,color:#fff
-    style CA fill:#164e63,stroke:#22d3ee,color:#fff
-    style DS fill:#312e81,stroke:#a78bfa,color:#fff
-    style LAB fill:#4c1d95,stroke:#c084fc,color:#fff
-```
-
-### Stack tecnológico
-
-<div align="center">
-
-[![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/es/docs/Web/JavaScript)
-[![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=node.js&logoColor=5FA04E)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=white)](https://expressjs.com/)
-[![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=E34F26)](https://developer.mozilla.org/es/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=1572B6)](https://developer.mozilla.org/es/docs/Web/CSS)
-[![Git](https://img.shields.io/badge/GIT-111827?style=flat-square&logo=git&logoColor=F05032)](https://git-scm.com/)
-
-</div>
-
-| Tecnología | Utilización |
-|---|---|
-| JavaScript | Implementación de estructuras y algoritmos. |
-| Node.js | Entorno de ejecución del servidor. |
-| Express | API y administración de solicitudes. |
-| HTML | Estructura de la interfaz. |
-| CSS | Diseño visual y sistema de estilos. |
-| JSON | Representación de datos. |
-| Git | Control de versiones y trabajo colaborativo. |
-| Chart.js *(incorporación prevista)* | Visualización de métricas. |
-
----
-
-<div align="center">
-
-# `10` / VISUAL ARCHIVE
-
-### Una mirada al sistema
-
-</div>
-
-<details>
-<summary><b>◈ Main Interface — Buscador</b></summary>
-
-<br>
-
-<img src="ESPACIO_PARA_SCREENSHOT_BUSCADOR" width="100%" alt="Main Interface"/>
-
-</details>
-
-<details>
-<summary><b>◈ Search Results — Resultados</b></summary>
-
-<br>
-
-<img src="ESPACIO_PARA_SCREENSHOT_RESULTADOS" width="100%" alt="Search Results"/>
-
-</details>
-
-<details>
-<summary><b>◈ Memory Monitor — Caché</b></summary>
-
-<br>
-
-<img src="ESPACIO_PARA_SCREENSHOT_CACHE" width="100%" alt="Memory Monitor"/>
-
-</details>
-
-<details>
-<summary><b>◈ Algorithm Lab — Benchmark</b></summary>
-
-<br>
-
-<img src="ESPACIO_PARA_SCREENSHOT_BENCHMARK" width="100%" alt="Algorithm Lab"/>
-
-</details>
-
-<details>
-<summary><b>◈ Cultural Explorer — Explorador</b></summary>
-
-<br>
-
-<img src="ESPACIO_PARA_SCREENSHOT_EXPLORADOR_CULTURAL" width="100%" alt="Cultural Explorer"/>
-
-</details>
-
----
-
-<div align="center">
-
-# `11` / DEVELOPMENT ROADMAP
-
-### Evolución de Pulse
-
-</div>
-
-El desarrollo se plantea de manera incremental, preservando las implementaciones actuales y añadiendo nuevas capacidades mediante módulos independientes.
-
-| Fase | Objetivo | Estado |
-|:---:|---|:---:|
-| 01 | Motor Trie y autocompletado | 🟢 Base implementada |
-| 02 | Cache SIEVE y lista doble | 🟢 Base implementada |
-| 03 | MergeSort y métodos de búsqueda | 🟢 Base implementada |
-| 04 | Mejoras de interfaz y catálogo | 🟡 Evolución |
-| 05 | Búsqueda aproximada BK-Tree | ⚪ Planificado |
-| 06 | Índice invertido multicampo | ⚪ Planificado |
-| 07 | Agenda y detección de conflictos | ⚪ Planificado |
-| 08 | Sistema de afinidad cultural | ⚪ Planificado |
-| 09 | Radar de tendencias | ⚪ Planificado |
-| 10 | Laboratorio comparativo ampliado | ⚪ Planificado |
-
-### Visión de desarrollo
-
-```mermaid
-timeline
-    title Evolución de Loja Cultura Pulse
-    section Núcleo
-        Motor de búsqueda : Trie
-        Cache : SIEVE
-        Recuperación : MergeSort y búsquedas
-    section Expansión
-        Catálogo avanzado : Filtros
-        Recuperación aproximada : BK-Tree
-        Búsqueda por atributos : Índice invertido
-    section Experiencia
-        Agenda cultural : Intervalos
-        Recomendador : Similitud
-        Radar : Tendencias
-    section Experimentación
-        Benchmark : Comparativas
-        Escalabilidad : Dataset ampliado
-```
-
----
-
-<div align="center">
-
-# `12` / DEPLOYMENT
-
-### Ejecuta el entorno local
-
-</div>
-
-## Requisitos
-
-- Node.js instalado.
-- npm.
-- Navegador actualizado.
-- Git recomendado.
-
-### Clonar el repositorio
-
-```bash
-git clone URL_DEL_REPOSITORIO
-```
-
-### Ingresar al proyecto
-
-```bash
-cd NOMBRE_DEL_PROYECTO
-```
-
-### Instalar dependencias
-
-```bash
-npm install
-```
-
-### Ejecutar el servidor
-
-```bash
-npm start
-```
-
-### Ejecutar pruebas
-
-```bash
-npm test
-```
-
-### Ejecutar benchmarking
-
-```bash
-npm run benchmark
-```
-
-> Los comandos se ajustarán a los scripts reales definidos en `package.json`.
-
----
-
-<div align="center">
-
-# `13` / TECHNICAL EVIDENCE
-
-### Validación y experimentación
-
-</div>
-
-El funcionamiento de las estructuras y algoritmos debe validarse mediante pruebas que permitan comprobar la exactitud de los resultados y su comportamiento bajo diferentes escenarios.
-
-### Validaciones previstas
-
-- Coincidencias correctas en Trie.
-- Prefijos inexistentes.
-- Prefijos con múltiples resultados.
-- Normalización de consultas.
-- Inserción y recuperación de caché.
-- Evicción cuando se alcanza la capacidad.
-- Ordenamiento de datos.
-- Búsqueda en registros ordenados.
-- Consultas repetidas y nuevas.
-- Consistencia entre los algoritmos y sus resultados.
-
-### Registro de experimentos
-
-| ID | Experimento | Tamaño | Resultado |
-|---|---|---:|---|
-| EXP-01 | Búsqueda por prefijo | [N] | [Pendiente] |
-| EXP-02 | Búsqueda secuencial | [N] | [Pendiente] |
-| EXP-03 | Búsqueda binaria | [N] | [Pendiente] |
-| EXP-04 | MergeSort | [N] | [Pendiente] |
-| EXP-05 | Cache SIEVE | [N] | [Pendiente] |
-| EXP-06 | Comparación de políticas | [N] | [Pendiente] |
-
-<div align="center">
-
-<img src="ESPACIO_PARA_TABLA_O_GRAFICA_DE_RESULTADOS" width="95%" alt="Resultados de pruebas"/>
-
-<sub>Figura 06. Evidencia de validación y evaluación experimental.</sub>
-
-</div>
-
----
-
-<div align="center">
-
-# `14` / PROJECT BOUNDARIES
-
-### Alcance y limitaciones
-
-</div>
-
-- La calidad de las coincidencias depende del contenido y consistencia del catálogo.
-- Los resultados experimentales dependen del hardware y del entorno de ejecución.
-- La normalización puede alterar diferencias semánticas si no se define correctamente.
-- Las recomendaciones requieren suficientes atributos descriptivos.
-- La agenda depende de la disponibilidad y precisión de fechas y horarios.
-- Las funciones en planificación no forman parte de las capacidades operativas hasta completar su desarrollo.
-- El proyecto se centra en la aplicación de estructuras de datos y algoritmos al descubrimiento de información cultural.
-
----
-
-<div align="center">
-
-# `15` / CONTRIBUTORS
-
-### Grupo 4 · Desarrollo académico
-
-</div>
-
-<table>
-<thead>
-<tr>
-<th>Integrante</th>
-<th>Participación</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Yimmy Onner Angulo Torres</td>
-<td>Desarrollo e integración</td>
-</tr>
-<tr>
-<td>Richard Santiago Guaman Sanchez</td>
-<td>Desarrollo e integración</td>
-</tr>
-<tr>
-<td>Freddy Alexander Ordoñez Gonzalez</td>
-<td>Desarrollo e integración</td>
-</tr>
-<tr>
-<td>Joaquin Emilio Moscol Castillo</td>
-<td>Desarrollo e integración</td>
-</tr>
-<tr>
-<td>Erick Jahirs Rogel Baque</td>
-<td>Desarrollo e integración</td>
-</tr>
-</tbody>
-</table>
-
-### Información académica
-
-| Campo | Información |
-|---|---|
-| Institución | Universidad Nacional de Loja |
-| Carrera | Computación |
-| Ciclo | Tercer Ciclo |
-| Asignatura | Estructura de Datos |
-| Docente | Ing. Cristian Narvaez |
-| Grupo | 4 |
-| Período | Septiembre 2026 – Febrero 2027 |
-
----
-
-<div align="center">
-
-# `16` / ACKNOWLEDGEMENTS
-
-### Tecnología al servicio de la cultura.
-
-Loja Cultura Pulse nace como una iniciativa académica para explorar la aplicación práctica de estructuras de datos, algoritmos y técnicas de recuperación de información dentro de una experiencia digital orientada a la cultura y el arte.
-
-Su desarrollo busca demostrar que el estudio de la eficiencia algorítmica puede trascender los ejercicios teóricos y convertirse en herramientas capaces de organizar, recuperar y conectar información útil para las personas.
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1020,50:172554,100:312E81&height=3&section=footer" width="100%" alt=""/>
+<font color="#00D9FF">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</font>
 
 ### **LOJA CULTURA PULSE**
 
-<sub>Explore the signal. Discover the culture.</sub>
-
-<br>
-
-**Universidad Nacional de Loja · Grupo 4**
+<font color="#BC13FE">Estructuras de Datos · Algoritmos · Innovación</font>
 
 *Loja, Ecuador · 2026*
+
+<font color="#FF3CAC">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</font>
 
 </div>
